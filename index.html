@@ -3,10 +3,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PowerHub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="css/styles.css" as="style">
 </head>
 <body>
  <header>
-    <h1>ALEJANDRO CARBAJAL</h1>
+    <h1 class="titulos">ALEJANDRO CARBAJAL <span>Freelancer</span></h1>
  </header>
  <nav>
    <a href="">Inicio</a>
@@ -21,7 +23,7 @@
     </section>
  <main>
     <section>  
-    <h2>Mis servicios</h2>
+    <h2 class="titulos">Mis servicios</h2>
             <h3>Diseño Web</h3>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-app-window"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M6 8h.01" /><path d="M9 8h.01" /></svg>
                 <p>Vestibulum faucibus ipsum id dictum hendrerit. Duis venenatis magna ut odio imperdiet porta. </p>
@@ -38,6 +40,33 @@
     </section>
     <section>  
     <h2>Contacto</h2>
+    <form action="">
+      <fieldset>
+         <legend> Conactame llenando los siguientes campos</legend>
+         <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder="Nombre">
+         </div>
+         <div>
+            <label for="Telefono">Telefono</label>
+            <input type="number" placeholder="Numero Telefonico">
+         </div>
+         <div>
+            <label for="Correo">Correo</label>
+            <input type="email" placeholder="email">
+         </div>
+        <div>
+            <label for="Mensaje">Mensaje</label>
+            <textarea placeholder="Escribe tu mensaje aqui"></textarea>
+        </div>
+         <div>
+            <input type="submit" value="Enviar">
+         </div>
+       
+
+
+      </fieldset>
+    </form>
     </section>            
     <footer>
  <p>Todos los derechos reservados </p>
